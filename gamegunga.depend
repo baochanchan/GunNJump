@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1680957000 source:c:\users\trann\documents\gamegunga\src\comonfunc.cpp
+	"ComonFunc.h"
+
+1680959276 c:\users\trann\documents\gamegunga\include\comonfunc.h
+	<iostream>
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+
+1681049432 source:c:\users\trann\documents\gamegunga\src\mainobject.cpp
+	"MainObject.h"
+
+1681047681 c:\users\trann\documents\gamegunga\include\mainobject.h
+	<vector>
+	"ComonFunc.h"
+	"BaseObject.h"
+	"BulletObject.h"
+
+1680957975 c:\users\trann\documents\gamegunga\include\baseobject.h
+	"ComonFunc.h"
+
+1681046718 source:c:\users\trann\documents\gamegunga\main.cpp
+	"ComonFunc.h"
+	"BaseObject.h"
+	"game_map.h"
+	"MainObject.h"
+	"ImpTimer.h"
+
+1680957975 c:\users\trann\documents\gamegunga\include\game_map.h
+	"ComonFunc.h"
+	"BaseObject.h"
+
+1680957975 source:c:\users\trann\documents\gamegunga\src\game_map.cpp
+	"game_map.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1680957975 source:c:\users\trann\documents\gamegunga\src\baseobject.cpp
+	"BaseObject.h"
+
+1680957975 source:c:\users\trann\documents\gamegunga\src\imptimer.cpp
+	"ImpTimer.h"
+
+1680957975 c:\users\trann\documents\gamegunga\include\imptimer.h
+	"ComonFunc.h"
+
+1681050393 c:\users\trann\documents\gamegunga\include\bulletobject.h
+	"BaseObject.h"
+	"ComonFunc.h"
+
+1681049443 source:c:\users\trann\documents\gamegunga\src\bulletobject.cpp
+	"BulletObject.h"
+
